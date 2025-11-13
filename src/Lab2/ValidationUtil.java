@@ -2,14 +2,7 @@ package Lab2;
 
 public class ValidationUtil {
 
-    private String input;
-
-    public  ValidationUtil() {
-        this.input = "";
-    }
-
     public boolean patternMatches(String input, String pattern) {
-        this.input = input;
         return  input.matches(pattern);
     }
 
